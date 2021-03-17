@@ -1,4 +1,4 @@
-#Idea Finder
+# Idea Finder
 
 ## Finds ideas using Redux
 
