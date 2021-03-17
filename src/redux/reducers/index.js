@@ -1,9 +1,10 @@
 import { combineReducers } from "redux";
 //import { useSelector, TypedUseSelectorHook } from "react-redux";
 import themeReducer from "./themeReducer";
+import ideasReducer from "./ideasReducer";
 
 const reducers = combineReducers({
-  books: () => ({ author: ["Secret Garden"] }),
+  ideas: ideasReducer,
   theme: themeReducer,
   user: () => ({ name: "Nick" }),
 });
