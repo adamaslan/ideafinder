@@ -20,7 +20,7 @@ const Sidebar = () => (
           <span>Idea Database</span>
         </li>
         <li>
-          <a href="">42 first points</a>
+          <a href="http://www.chillcastle.com/151ideas">151 points</a>
         </li>
       </Nav>
 
