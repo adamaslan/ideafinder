@@ -9,5 +9,5 @@ export default styled.div`
   background-color: #683bb7;
   color: #fff;
   margin: 15px;
-  font-size: 4em;
+  font-size: 3em;
 `;
