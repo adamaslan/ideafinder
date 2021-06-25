@@ -14,8 +14,6 @@ function App() {
 
   return (
     <Provider store={store}>
-      <Article />
-
       <Router>
         <div></div>
 
