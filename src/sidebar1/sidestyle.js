@@ -17,7 +17,7 @@ export const Container = styled.aside`
 
 export const Nav = styled.ul`
   list-style: none;
-  margin-top: 25px;
+  margin-top: 5px;
 
   &:first-child {
     margin-top: 0px;
@@ -29,7 +29,7 @@ export const Nav = styled.ul`
       text-decoration: none;
       font-size: 13px;
       line-height: 32px;
-      font-weight: ${props => (props.main ? "bold" : "normal")};
+      font-weight: ${(props) => (props.main ? "bold" : "normal")};
 
       &:hover {
         color: #fff;
@@ -49,7 +49,7 @@ export const Nav = styled.ul`
 export const NewPlaylist = styled.button`
   background: transparent;
   border: 0;
-  border-top: 1px solid #282828;
+  border-top: 3px solid #282828;
   font-size: 13px;
   color: #b3b3b3;
   display: flex;
