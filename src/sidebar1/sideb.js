@@ -3,39 +3,36 @@ import React from "react";
 import { Container, Nav } from "./sidestyle";
 import { Link, Switch, Route } from "react-router-dom";
 
-
 const Sidebar = () => (
   <Container>
     <div>
       <Nav main>
         <li>
-        <Link to="/about">About</Link>
+          <Link to="/About">About</Link>
         </li>
         <li>
-          <a href="">Rádio</a>
+          <Link to="/Ideas">Ideas</Link>
         </li>
       </Nav>
 
       <Nav>
         <li>
-          <span>SUA BIBLIOTECA</span>
+          <span>Idea Database</span>
         </li>
         <li>
-          <a href="">Seus Daily Mix</a>
+          <a href="http://www.chillcastle.com/151ideas">151 points</a>
         </li>
-        
       </Nav>
 
       <Nav>
         <li>
-          <span>PLAYLISTS</span>
+          <span>Coding gurus</span>
         </li>
         <li>
-          <a href="">Melhores do rock</a>
+          <a href="https://explorejs.com/#/">Explore JS</a>
         </li>
       </Nav>
     </div>
-  
   </Container>
 );
 

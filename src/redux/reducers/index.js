@@ -6,7 +6,7 @@ import ideasReducer from "./ideasReducer";
 const reducers = combineReducers({
   ideas: ideasReducer,
   theme: themeReducer,
-  user: () => ({ name: "Nick" }),
+  user: () => ({ name: "Adam" }),
 });
 
 export default reducers;

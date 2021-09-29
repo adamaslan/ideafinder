@@ -3,7 +3,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import LogRocket from "logrocket";
-import Article from "./Article";
 
 LogRocket.init("gbbmyq/statedfun");
 
@@ -19,6 +18,7 @@ export default function Ideas({ stuff }) {
       payload: "fun",
     });
     dispatch({
+
       type: "SelectCategory1",
       payload: "deep",
     });
