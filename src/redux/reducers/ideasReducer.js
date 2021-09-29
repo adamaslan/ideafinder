@@ -21,6 +21,13 @@ const ideasReducer = (state = initialState, action) => {
         selected: result,
       };
     }
+    case "SelectCategory1": {
+      const result = state.data.filter((item) => item[0] == action.payload);
+      return {
+        ...state,
+        selected: result,
+      };
+    }
     default:
       return state;
   }

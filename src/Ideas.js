@@ -17,11 +17,16 @@ export default function Ideas({ stuff }) {
       type: "SelectCategory",
       payload: "fun",
     });
+    dispatch({
+      type: "SelectCategory",
+      payload: "deep",
+    });
   };
   return (
     <div>
       <p>Ideas</p>
       <button onClick={handleSelect}> "SelectCategory" </button>
+      <button onClick={handleSelect}> "SelectCategory1" </button>
     </div>
   );
 }
