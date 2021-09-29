@@ -8,10 +8,10 @@ const Sidebar = () => (
     <div>
       <Nav main>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/About">About</Link>
         </li>
         <li>
-          <a href="">Ideas</a>
+          <Link to="/Ideas">Ideas</Link>
         </li>
       </Nav>
 
