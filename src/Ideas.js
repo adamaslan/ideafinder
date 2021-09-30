@@ -12,23 +12,23 @@ export default function Ideas({ stuff }) {
   const dispatch = useDispatch();
 
   console.log(ideasData);
-  const handleSelect = () => {
+  const handleSelect = (dog) => {
     dispatch({
       type: "SelectCategory",
-      payload: "fun",
+      payload: dog,
     });
-    dispatch({
-
+    /* dispatch({
       type: "SelectCategory1",
       payload: "deep",
-    });
+    })*/
   };
   return (
     <div>
       <h1>Ideas</h1>
-      <button onClick={handleSelect}> "SelectCategory" </button>
+      <h2>{ideasData.selected[0]}</h2>
+      <button onClick={() => handleSelect("fun")}> Select Fun </button>
       <br />
-      <button onClick={handleSelect}> "SelectCategory1" </button>
+      <button onClick={() => handleSelect("deep")}> Select Deep </button>
     </div>
   );
 }
