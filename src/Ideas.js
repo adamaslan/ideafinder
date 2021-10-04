@@ -17,6 +17,7 @@ export default function Ideas({ stuff }) {
       type: "SelectCategory",
       payload: dog,
     });
+
     /* dispatch({
       type: "SelectCategory1",
       payload: "deep",
